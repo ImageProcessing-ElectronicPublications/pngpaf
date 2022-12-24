@@ -1,21 +1,28 @@
 # PNG Pixel Art Filter
+
 Pixel Art Filter is an image filter that pixelates PNG images using a lossy image compression algorithm, written in C++ using clang and LodePNG.
 * lena.png [474756]  
-![origin](images/lena.png)
+![origin](https://raw.githubusercontent.com/ImageProcessing-ElectronicPublications/pngpaf-samples/main/images/lena.png)
 * lena.paf100.png [256651] (`./pngpaf images/lena.png images/lena.paf100.png`)  
-![paf 100](images/lena.paf100.png)
+![paf 100](https://raw.githubusercontent.com/ImageProcessing-ElectronicPublications/pngpaf/master/images/lena.paf100.png)
 * lena.paf200.png [176850] (`./pngpaf images/lena.png images/lena.paf200.png 200`)  
-![paf 100](images/lena.paf200.png)
+![paf 200](https://raw.githubusercontent.com/ImageProcessing-ElectronicPublications/pngpaf/master/images/lena.paf200.png)
 * lena.paf500.png [105063] (`./pngpaf images/lena.png images/lena.paf500.png 500`)  
-![paf 100](images/lena.paf500.png)
+![paf 500](https://raw.githubusercontent.com/ImageProcessing-ElectronicPublications/pngpaf/master/images/lena.paf500.png)
+
+See all [samples images for PNG Pixel Art Filter]()
 
 ## Prerequisites
+
 To run this project, after cloning it:
+
 ### Add LodePNG
+
 LodePNG library is used to encode and deocde PNG images:
 * Compile and install library from https://github.com/zvezdochiot/lodepng
 
 ## Deployment
+
 To compile the project, use the command:
 ```
 make
